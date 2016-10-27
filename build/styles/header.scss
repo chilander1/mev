@@ -1,0 +1,49 @@
+.container-lg {
+  max-width: 1320px;
+  padding: 0 45px;
+  margin: 0 auto;
+  @media all and (max-width: 1320px) {
+    width: 100%;
+  }
+  @media all and (max-width: 769px) {
+    padding: 0 20px;
+  }
+
+}
+
+.top-info {
+  display: inline-block;
+  width: 100%;
+  padding: 10px 0 0 5px;
+  margin-bottom: 10px;
+  .free-days {
+    display: inline-block;
+    color: $red;
+    font-weight: 400;
+    font-size: em(12);
+  }
+  .log-menu {
+    float: right;
+    margin: 0;
+    li {
+      padding: 0 12px 0 0;
+      float: left;
+      a {
+        color: #666;
+      }
+      * {
+        letter-spacing: 0.5px;
+        font-size: em(12);
+        color: #000;
+        text-transform: uppercase;
+      }
+      &:last-child {
+        padding-right: 10px;
+      }
+    }
+  }
+}
+
+.header {
+  padding-bottom: 20px;
+}

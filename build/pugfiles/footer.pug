@@ -1,0 +1,63 @@
+include mixins
+footer.footer.container
+    .row
+        ul.footer-menu
+            +footerMenu('Shoping Bag')
+            +footerMenu('Customer Support')
+            +footerMenu('Vist Us')
+            +footerMenu('Contact Us')
+            +footerMenu('Get Our App')
+        .footer-text
+    .row.bottom-footer-cont
+        .col-md-3.col-sm-6.col-xs-6.text-left.no-padding-l.footer-col
+            h6 CONTACT US
+            p 199 Boylston Street
+                br
+                | Chestnut Hill, MA 02467
+            p Phone:  617-965-5555
+                br
+                | Toll Free:  1-855-782-3786
+            address Email:
+                a(href="mailto:mail@quadrumgallery.com") mail@quadrumgallery.com
+        .col-md-3.col-sm-6.col-xs-6.text-left
+            h6 CUSTOMER SERVICE
+            ul.footer-links
+                +footerMenu('F.A.Q.')
+                +footerMenu('Contact Us')
+                +footerMenu('My Account')
+                +footerMenu('Gift Cards / Gift Wrapping')
+                +footerMenu('Repairs')
+                +footerMenu('Returns')
+        .col-md-3.col-sm-6.col-xs-6.text-left
+            h6 POPULAR LINKS
+            ul.footer-links
+                +footerMenu('Shipping')
+                +footerMenu('Jewelry Care')
+                +footerMenu('Diamond Care')
+                +footerMenu('Special Orders')
+                +footerMenu('Ring Sizing')
+        .col-md-3.col-sm-6.col-xs-6.text-left.join-block
+            h6 FOLLOW US
+            .social-block
+                a(href="#" target="_blank" class="gplus")
+                a(href="#" target="_blank" class="fb")
+                a(href="#" target="_blank" class="tw")
+                a(href="#" target="_blank" class="video")
+                a(href="#" target="_blank" class="insta")
+                a(href="#" target="_blank" class="pl")
+            h6.join-h join our newsletter
+            .input-group.join-newsletter
+                input(type="text" class="form-control" placeholder="Email")
+                span.input-group-btn
+                    button(class="btn btn-default" type="button") Join
+            p We never share our clients information with other companies or services
+    .row.footer-copyright
+        p © 2012 Quadrum Gallery, All rights reserved.
+            span  Made by
+                a(href="#" target="_blank") MEV
+        ul
+            +footerMenu('Terms')
+            +footerMenu('Privacy statement')
+            +footerMenu('Cookie Policy')
+            +footerMenu('Customer Service')
+            +footerMenu('Contact')
