@@ -90,22 +90,3 @@ img {
 
 }
 
-%before-arrow {
-  position: relative;
-  margin: 0;
-  &:before {
-    content: '';
-    display: block;
-    position: absolute;
-    width: 8px;
-    height: 8px;
-    bottom: 0;
-    margin: auto;
-    border-top: none;
-    border-left: none;
-    top: 0;
-    transition: 250ms;
-  }
-}
-
-
